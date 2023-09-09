@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    align-items: center;
+    color:  #202020;
+    position: absolute;
+}
+
+p {
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-itens>li>a {
+    padding-left: 20px;
+    color:  #202020;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.login {
+    padding: 10px 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fffafa;
+    background-color: #202020;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-left: 670px;
+}
+
+img {
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    display: block;
+    border-radius: 10px;
+}
+
+.cards{
+    display: inline-block;
+}
+
+
+.card1{
+    width: 370px;
+    height: 510px;
+    background-color: #202020;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+
+.modelos{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.name-car{
+    background-color: #202020;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+.btn-alg{
+    width: 370px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: solid;
+    background-color: darkgray;
+    color: #202020;
+    
+}
+
+.name-car:hover{
+    transform: scale(1.05);
+}
+
+.carro1:hover{
+    transform: scale(1.05);
+}
+
+.btn-alg:hover{
+    transform: scale(1.01);
+    background-color: grey;
+}
+
+footer {
+    background: linear-gradient(to bottom, #555555,#000000);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.lista-footer{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+   
+}
+
+
+footer>ul>li>a{
+    margin-bottom: 15px;
+    color:#fffff2 ;
+    text-decoration: none;
+}
+
+.logo-footer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
