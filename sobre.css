@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    align-items: center;
+    color: #202020;
+    position: absolute;
+    
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 25px;
+    color: #fffff2;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+.nav-itens>li>a {
+    padding-left: 20px;
+    color: #fffff2;
+    text-decoration: none;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    color: #fffff2;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+}
+
+img{
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+#txt{
+    color: black;
+}
+
+.content{
+    height: 520px;
+    width: 925px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 650px;
+    background-color:  #353533;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    height: 17px;
+    width: 70px;
+    border: 2px solid rgb(8, 8, 8);
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: .6s;
+
+}
+
+#slide1:checked ~ .s1{
+    margin-left: 0;
+    
+}
+
+#slide2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+
+
+.bar:hover{
+    background-color: white;
+}
+
+.card{
+    background-color: #302e2e;
+    width: 100%;
+    height: 100vh;
+    
+   
+}
+
+.card1{
+    width: 350px;
+    height: 50px;
+    background-color: #202020;
+    
+}
+
+
+footer {
+    background: linear-gradient(to bottom, #555555,#000000);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 1px;
+    
+}
+
+.lista-footer{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+   
+}
+
+
+footer>ul>li>a{
+    margin-bottom: 15px;
+    color:#fffff2 ;
+    text-decoration: none;
+}
+
+.logo-footer{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
