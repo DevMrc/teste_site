@@ -87,7 +87,7 @@ footer>ul>li>a{
     font-family: 'Poppins', sans-serif;
 }
 
-.botao-imagem{
+button {
     position: absolute;
     top: 50%;
     left: 50%;
