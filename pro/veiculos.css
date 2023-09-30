@@ -107,7 +107,7 @@ img {
 
 .btn-alg:hover{
     transform: scale(1.01);
-    background-color: grey;
+    background-color: lightgray;
 }
 
 footer {
@@ -135,4 +135,11 @@ footer>ul>li>a{
 .logo-footer{
     text-align: center;
     font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+    nav{
+        width: 100%;
+        flex-direction:column;
+    }
 }
